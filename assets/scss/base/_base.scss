@@ -1,0 +1,137 @@
+@import "../abstracts/typography";
+@import "../abstracts/variables";
+body {
+  font-family: "Merriweather";
+  font-weight: 400;
+  color: $blue;
+  font-size: 1rem;
+  line-height: 1.6;
+  header {
+    background-color: $light-p;
+  }
+  .icon {
+    font-family: "icomoon" !important;
+  }
+  .pr-btn {
+    background-color: $red;
+  }
+  .pr-banner , .pr-advantage-img {
+    img {
+        border-bottom-left-radius: 48px;
+      }
+  }
+  .pr-advantage-des{
+    .icon{
+        color: $red;
+    }
+    .icon-sent:before {
+        content: "\e90b";
+      }
+}
+  .pr-banner {
+    background-image: url(../../../assets/images/hero-bg.png);
+    height: fit-content;
+    .swiper {
+      .swiper-pagination-bullet {
+        border-radius: unset;
+        background-color: $red;
+      }
+      .swiper-pagination-bullet-active {
+        width: 0.8rem;
+        height: 0.8rem;
+      }
+    }
+  }
+  .pr-shop {
+    .pr-post-sliders {
+      .pr-post-box {
+        border: 1px solid $gray;
+        box-shadow: 0px 3px 6px rgba(10, 34, 51, 0.11);
+      }
+      .icon-bed:before {
+        content: "\e901";
+      }
+      .icon-bath:before {
+        content: "\e902";
+      }
+      .icon-ruler:before {
+        content: "\e900";
+      }
+    }
+  }
+  .pr-advantage{
+    background-color: $light-gray;
+    background-image: url(../../../assets/images/dot.png);
+    .pr-advantage-img{
+        img{
+            border-bottom-left-radius: 48px;
+        }
+    }
+  }
+  .pr-services{
+    .pr-services-box{
+        background-color: $light;
+        border: 1px solid $light-pink;
+    }
+  }
+  .pr-cta{
+    background-color: $blue;
+    // background-image: url(../../../assets/images/dots.png);
+  }
+  .pr-property{
+    li{
+        a{
+            background-color: $pink;  
+        }
+        a[aria-selected="true"]{
+            background-color: $red;
+            color: white;
+        }
+    }
+  }
+  footer {
+    background-color: $blue;
+    border-bottom: 1px solid $divider;
+    .pr-details {
+      .icon-location:before {
+        content: "\e90a";
+      }
+      .icon-phone:before {
+        content: "\e909";
+      }
+      .icon-email:before {
+        content: "\e908";
+      }
+    }
+    .social-a {
+      background-color: $linkedin-social;
+      .icon-linkedin:before {
+        content: "\e907";
+      }
+    }
+    .social-b {
+      background-color: $instagram-social;
+      .icon-instagram:before {
+        content: "\e906";
+      }
+    }
+    .social-c {
+      background-color: $twitter-social;
+      .icon-twitter:before {
+        content: "\e905";
+      }
+    }
+    .social-d {
+      background-color: $facebook-social;
+      .icon-facebook:before {
+        content: "\e904";
+      }
+    }
+  }
+  .pr-copyright {
+    background-color: $blue;
+  }
+}
+@media (max-width: 767.98px) {
+  
+}

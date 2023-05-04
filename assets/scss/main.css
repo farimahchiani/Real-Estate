@@ -1,0 +1,213 @@
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../../../assets/fonts/icomoon/icomoon.eot?3se3p1");
+  src: url("../../../assets/fonts/icomoon/icomoon.eot?3se3p1#iefix") format("embedded-opentype"), url("../../../assets/fonts/icomoon/icomoon.ttf?3se3p1") format("truetype"), url("../../../assets/fonts/icomoon/icomoon.woff?3se3p1") format("woff"), url("../../../assets/fonts/icomoon/icomoon.svg?3se3p1#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+body {
+  font-family: "Merriweather";
+  font-weight: 400;
+  color: #0A2233;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+body header {
+  background-color: #ffebe2;
+}
+body .icon {
+  font-family: "icomoon" !important;
+}
+body .pr-btn {
+  background-color: #F85359;
+}
+body .pr-banner img, body .pr-advantage-img img {
+  border-bottom-left-radius: 48px;
+}
+body .pr-advantage-des .icon {
+  color: #F85359;
+}
+body .pr-advantage-des .icon-sent:before {
+  content: "\e90b";
+}
+body .pr-banner {
+  background-image: url(../../../assets/images/hero-bg.png);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .pr-banner .swiper .swiper-pagination-bullet {
+  border-radius: unset;
+  background-color: #F85359;
+}
+body .pr-banner .swiper .swiper-pagination-bullet-active {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+body .pr-shop .pr-post-sliders .pr-post-box {
+  border: 1px solid #e8e8ef;
+  box-shadow: 0px 3px 6px rgba(10, 34, 51, 0.11);
+}
+body .pr-shop .pr-post-sliders .icon-bed:before {
+  content: "\e901";
+}
+body .pr-shop .pr-post-sliders .icon-bath:before {
+  content: "\e902";
+}
+body .pr-shop .pr-post-sliders .icon-ruler:before {
+  content: "\e900";
+}
+body .pr-advantage {
+  background-color: #f8f8f9;
+  background-image: url(../../../assets/images/dot.png);
+}
+body .pr-advantage .pr-advantage-img img {
+  border-bottom-left-radius: 48px;
+}
+body .pr-services .pr-services-box {
+  background-color: #FFF5F5;
+  border: 1px solid #FEE4E5;
+}
+body .pr-cta {
+  background-color: #0A2233;
+}
+body .pr-property li a {
+  background-color: #FFD9D5;
+}
+body .pr-property li a[aria-selected=true] {
+  background-color: #F85359;
+  color: white;
+}
+body footer {
+  background-color: #0A2233;
+  border-bottom: 1px solid #13334A;
+}
+body footer .pr-details .icon-location:before {
+  content: "\e90a";
+}
+body footer .pr-details .icon-phone:before {
+  content: "\e909";
+}
+body footer .pr-details .icon-email:before {
+  content: "\e908";
+}
+body footer .social-a {
+  background-color: #0E72A3;
+}
+body footer .social-a .icon-linkedin:before {
+  content: "\e907";
+}
+body footer .social-b {
+  background-color: #D62977;
+}
+body footer .social-b .icon-instagram:before {
+  content: "\e906";
+}
+body footer .social-c {
+  background-color: #00C6F7;
+}
+body footer .social-c .icon-twitter:before {
+  content: "\e905";
+}
+body footer .social-d {
+  background-color: #0069F7;
+}
+body footer .social-d .icon-facebook:before {
+  content: "\e904";
+}
+body .pr-copyright {
+  background-color: #0A2233;
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../../assets/fonts/Merriweather/Merriweather-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../../../assets/fonts/icomoon/icomoon.eot?3se3p1");
+  src: url("../../../assets/fonts/icomoon/icomoon.eot?3se3p1#iefix") format("embedded-opentype"), url("../../../assets/fonts/icomoon/icomoon.ttf?3se3p1") format("truetype"), url("../../../assets/fonts/icomoon/icomoon.woff?3se3p1") format("woff"), url("../../../assets/fonts/icomoon/icomoon.svg?3se3p1#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}/*# sourceMappingURL=main.css.map */
